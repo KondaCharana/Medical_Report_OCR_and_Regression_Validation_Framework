@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "error": "Ollama API error: HTTP 500",
+  "raw_response": "{\"error\":\"model requires more system memory (2.9 GiB) than is available (2.9 GiB)\"}",
+  "status_code": 500
+}

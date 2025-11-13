@@ -1,0 +1,249 @@
+{
+  "new_file": "WhatsApp Image 2025-06-23 at 7.30.27 PM_extracted.json",
+  "reference_file": "WhatsApp Image 2025-06-23 at 7.30.27 PM_extracted.json",
+  "similarity_percent": 25.81,
+  "total_mismatches": 11,
+  "timestamp": "2025-11-12T19:38:58.453260",
+  "mismatches": [
+    {
+      "path": "report_info",
+      "reference": {
+        "type": "Clinical Chemistry Lab",
+        "ordered_date": "12/09/2018",
+        "sample_col_date": "12/09/2018 08:14",
+        "result_certified_date": "12/09/2018 15:18",
+        "sample_id": [
+          "0523CH180912",
+          "0524CH180912"
+        ],
+        "pre_employment_package": "up to 40yrs"
+      },
+      "new": null
+    },
+    {
+      "path": "test_results",
+      "reference": [
+        {
+          "test_name": "Cholesterol, total-Serum CHE-",
+          "result_value": "168.5 mg/dl",
+          "reference_range": "150.0 to 200.0",
+          "unit": "CHEM-PANEL",
+          "status": "> Cholesterol"
+        },
+        {
+          "test_name": "Triglycerides -Serum GPO-POD",
+          "result_value": "87.5 mg/dl",
+          "reference_range": "50.0 to 150.0",
+          "unit": "RC",
+          "status": "> Triglycerides"
+        },
+        {
+          "test_name": "HDL-Serum CHE-",
+          "result_value": "35.5",
+          "reference_range": "40.0 to 60.0",
+          "unit": "CHEM-PANEL",
+          "status": "> Cholesterol"
+        },
+        {
+          "test_name": "LDL-Serum CHE-",
+          "result_value": "130.2 mg/dl",
+          "reference_range": "100.0 to 129.0",
+          "unit": "CHEM-PANEL",
+          "status": "> Cholesterol"
+        },
+        {
+          "test_name": "VLDL",
+          "result_value": "17.5 mg/dl",
+          "reference_range": "0.0 to 39.0",
+          "unit": "",
+          "status": null
+        },
+        {
+          "test_name": "Glucose [F]- Hexokinase",
+          "result_value": "91.3 mg/dl",
+          "reference_range": "74.0 to 106.0",
+          "unit": "RC",
+          "status": null
+        },
+        {
+          "test_name": "Creatinine;-Serum JaffeMethod",
+          "result_value": "0.98 mg/dl",
+          "reference_range": "0.0 to 1.2",
+          "unit": "RC",
+          "status": "> Uric acid"
+        },
+        {
+          "test_name": "Uric acid - Serum Photometry",
+          "result_value": "7.2 mg/dl",
+          "reference_range": "3.4 to 7.0",
+          "unit": "RC",
+          "status": null
+        },
+        {
+          "test_name": "Bilirubin Total -Serum Photometry",
+          "result_value": "1.01 mg/dl",
+          "reference_range": "0.0 to 1.1",
+          "unit": "RC",
+          "status": null
+        },
+        {
+          "test_name": "AST (SGOT) - serum",
+          "result_value": "13.8 IU/L",
+          "reference_range": "0.0 to 40.0",
+          "unit": "RC",
+          "status": null
+        },
+        {
+          "test_name": "ALT [SGPT]-serum",
+          "result_value": "16.6 IU/L",
+          "reference_range": "0.0 to 41.0",
+          "unit": "RC",
+          "status": null
+        }
+      ],
+      "new": null
+    },
+    {
+      "path": "patient_info",
+      "reference": {
+        "name": "FREDIN TOM CYRIAC",
+        "age": "25 Years",
+        "sex": "M",
+        "visit_type": "OP",
+        "dob": "21/12/1992",
+        "visit_id": "OP0001",
+        "location": "| Comprehensive Medicine"
+      },
+      "new": null
+    },
+    {
+      "path": "_metadata.processing_timestamp",
+      "reference": "2025-06-25T12:52:27.972443",
+      "new": null
+    },
+    {
+      "path": "_metadata.timestamp",
+      "reference": null,
+      "new": "2025-11-12T19:38:58.324005"
+    },
+    {
+      "path": "_metadata.extraction_method",
+      "reference": "tesseract_ollama_deepseek",
+      "new": null
+    },
+    {
+      "path": "_metadata.model_used",
+      "reference": "llama3.2:3b",
+      "new": null
+    },
+    {
+      "path": "hospital_info",
+      "reference": {
+        "name": "Anrita Institute of Medical Sciences and Research Centre",
+        "address": "Elamakkara P.O Kochi-26",
+        "phone": [
+          "0091 (0) 484 280 1234",
+          "0091 (0) 484 280 4321",
+          "0091 (0) 484 400 1234"
+        ],
+        "fax": [
+          "0091 (0) 484 280 2020"
+        ]
+      },
+      "new": null
+    },
+    {
+      "path": "labServices",
+      "reference": null,
+      "new": {
+        "institution": "Anrita Institute of Medical Sciences and Research Centre",
+        "address": "Elamakkara P.O, Kochi-26",
+        "phone": [
+          "0091 (0) 484 280 1234",
+          "0091 (0) 484 280 4321",
+          "0091 (0) 400 1234"
+        ],
+        "fax": "0091 (0) 484 280 2020",
+        "resultReport": {
+          "clinicalChemistryLab": {
+            "pageNumber": 1,
+            "mrnNo": "2001595",
+            "patientInfo": {
+              "sex": "M",
+              "consultingDoctor": "Anoop Menon",
+              "name": "FREDIN TOM CYRIAC",
+              "visitType": "OP",
+              "dob": "21/12/1992",
+              "visitId": "OP0001"
+            },
+            "location": {
+              "comprehensiveMedicine": "Comprehensive Medicine"
+            },
+            "patientDemographics": {
+              "age": "25 Years"
+            },
+            "testResults": [
+              {
+                "name": "> Cholesterol, total-Serum CHE-",
+                "value": 168.5,
+                "unit": "mg/dl",
+                "referenceRange": {
+                  "min": 150.0,
+                  "max": 200.0
+                },
+                "resultStatus": "RC"
+              },
+              {
+                "name": "> Triglycerides -Serum GPO-POD",
+                "value": 87.5,
+                "unit": "mg/dl",
+                "referenceRange": {
+                  "min": 50.0,
+                  "max": 150.0
+                },
+                "resultStatus": "RC"
+              }
+            ]
+          }
+        },
+        "sampleInfo": [
+          {
+            "sampleId": "0523CH180912",
+            "sampleColDate": "12/09/2018 08:14",
+            "resultCertifiedDate": "12/09/2018 15:18"
+          },
+          {
+            "sampleId": "0524CH180912",
+            "sampleColDate": "12/09/2018 08:14",
+            "resultCertifiedDate": "14/09/2018 15:34"
+          }
+        ],
+        "interpretation": {
+          "interpretation": "Please correlate with clinical condition.",
+          "authorizedSignature": true,
+          "printedOn": "25/09/2018 08:27",
+          "resultProvisionallyCertified": false
+        },
+        "labAuthorityApproval": {
+          "approvalByLabAuthority": "Pending"
+        }
+      }
+    },
+    {
+      "path": "doctor_info",
+      "reference": {
+        "consulting_doctor": "Anoop Menon"
+      },
+      "new": null
+    },
+    {
+      "path": "additional_info",
+      "reference": {
+        "authorized_signature": "Printed On: 25/09/2018 08:27 (*)",
+        "result_provisionally_certified": true,
+        "approval_by_lab_authority": "Pending"
+      },
+      "new": null
+    }
+  ]
+}
